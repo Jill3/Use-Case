@@ -1,0 +1,28 @@
+= Use-Case Model <Projektthema>
+Jill Urbons <luciejill.urbons@htw-dresden.de>; Helene Uhlig <helene.uhlig@htw-dresden.de>
+0.1, 01.11.2019 
+:toc: 
+:toc-title: Inhaltsverzeichnis
+:sectnums:
+// Platzhalter für weitere Dokumenten-Attribute 
+
+//Fügen Sie nachfolgend eine Liste aller Use-Cases per Include ein.
+//Dafür sollten Sie pro Use-Case eine Datei anlegen, die auf dem usecase_spec.adoc Template basiert.
+[%header]
+|===
+|Akteur| Ziel/ Use Case | Priorität
+|Kunde | Bestellung aufgeben | ja
+|| Angebot anzeigen | ja
+|| Kundenkonto einrichten | ?
+| |Bestellung stornieren | nein
+|Barbetreiber | Bestellungen empfangen | ja
+|| Rechnungsübersicht darstellen | nein
+|| Angebotsgestaltung ändern | nein
+|Barangestellter | Bestellungen einsehen | ja
+|| Bestellung bestätigen | ja
+|| Bestellung stornieren (Zutaten nicht mehr vorhanden) | ja
+|Logistikunternehmen | Lieferaufträge erhalten | ja
+|| Lieferautrag bestätigen | ja
+
+|===
+include::usecase_spec.adoc[]
